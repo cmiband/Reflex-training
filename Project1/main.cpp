@@ -13,9 +13,16 @@ int main() {
 	if (!cursor.loadFromSystem(sf::Cursor::Cross))
 		return EXIT_FAILURE;
 
-	sf::RectangleShape titleRec(sf::Vector2f(200.0f, 50.0f));
+	sf::Font font;
+	if (!font.loadFromFile("BebasNeue-Regular.ttf"))
+		return EXIT_FAILURE;
+	sf::Text title("Reflex training", font, 50);
+	title.setColor
+
+	sf::RectangleShape titleRec(sf::Vector2f(400.0f, 80.0f));
 	
-	titleRec.setPosition(sf::Vector2f(400.0f, 100.0f));
+	titleRec.setPosition(sf::Vector2f(300.0f, 25.0f));
+	title.setPosition(sf::Vector2f(400.0f, 30.0f));
 
 	titleRec.setFillColor(sf::Color::White);
 
@@ -31,6 +38,9 @@ int main() {
 			}
 		}
 		window.clear(bgColor);
+
+		window.draw(titleRec);
+		window.draw(title);
 
 		window.display();
 	}
