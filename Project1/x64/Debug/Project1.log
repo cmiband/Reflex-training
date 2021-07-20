@@ -1,2 +1,23 @@
 ﻿  main.cpp
+E:\ReflexTraining\Reflex-training\Project1\main.cpp(53,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\ReflexTraining\Reflex-training\Project1\main.cpp(53,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\ReflexTraining\Reflex-training\Project1\main.cpp(57,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\ReflexTraining\Reflex-training\Project1\main.cpp(63,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\ReflexTraining\Reflex-training\Project1\main.cpp(64,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Project1.vcxproj -> E:\ReflexTraining\Reflex-training\Project1\x64\Debug\Project1.exe
